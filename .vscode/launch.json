@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "启动程序",
+      "type": "node",
+      "request": "launch",
+      "args": [
+        "./index.ts"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "runtimeArgs": [
+        "-r",
+        "ts-node/register"
+      ]
+    }
+  ]
+}
